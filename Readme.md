@@ -1,4 +1,4 @@
-# An overview of all the stuff i learn from DELTA COURSE from APNA COLLEGE
+# An overview of all the stuff i learnt from 50 percent of DELTA COURSE from APNA COLLEGE
 
 - stared off with html, learnt all basics.
 - dove into CSS, had my fun time there, took a long time, finnaly over, made a spotify clone with Shraddha di
