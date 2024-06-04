@@ -5,4 +5,6 @@
 - started JS, got a grasp of how elements or tags or selectors are chosen.
 - made a simple simon say game, it was cool, designed all those small projects my style.
 - Learnt a bit of advanced stuff such as promisses and async functions and javascript's asynchronus natures.
--
+- learnt handling API's, it was fun making random cat facts and dog pictures.
+- learnt terminal commands
+- learnt how to use git
