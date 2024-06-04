@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QP on tables and forms</title>
+    </head>
+    <body>
+        <!-- TABLE 1 -->
+
+        <table border>
+        
+            <tr>
+                <th rowspan="6"> INFO </th>
+                <th rowspan="2"> Name </th>
+                <th colspan="2"> Adress</th>
+            </tr>
+            <tr>
+                <th> city </th>
+                <th> House </th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkotta</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+
+        </table>
+
+        <br>
+        <hr size="3" color="black">
+        <br> 
+        
+        <!-- FORM 1 -->
+
+        <form action="/server">
+
+            <div>
+                <label for="name"> Full Name </label>
+                <input type="text" name="name" id="name" placeholder="Enter Name here">
+            </div>
+            <div>
+                Sex :
+                <label for="sex"> Male </label>
+                <input type="radio" name="sex" id="sex" value="M">
+
+                <label for="sex"> Female </label>
+                <input type="radio" name="sex" id="sex" value="F">
+
+            </div>
+            <div>
+                <Label for="Country"> Country </Label>
+                <select id="Country" name="Country"> 
+                    <option Value="Ind"> India</option>
+                    <option value="Nep"> Nepal</option>
+                    <option value="USA">USA</option>
+                    <option value="CAn">Canada</option>
+                </select>
+            </div>
+
+            <div>
+                 <label for="message">Message: </label><br>
+                 <textarea id="message" placeholder="Type here" name="msg"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="sub" id="sub">
+                <label for="sub">Subscribe &excl;&excl;</label>
+            </div>
+            <div>
+                <button type="submit"> Submit</button>
+            </div>
+        </form>
+
+        <!-- Form 2 -->
+
+        <form>
+            
+
+
+
+        </form>
+
+
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    color: white;
+    text-shadow:
+    0 0 10px #fff, /* Inner white glow */
+    0 0 20px #e60073, /* Pink outer glow */
+    0 0 30px #e60073;
+    
+    
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: xx-large;
+    width: 500px;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color:green;
+}
+
+.yellow{
+    color:yellow;
+}
+
+.blue{
+    color:blue;
+}

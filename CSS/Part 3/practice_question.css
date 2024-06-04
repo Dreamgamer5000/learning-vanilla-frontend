@@ -1,0 +1,22 @@
+#first {
+    height: 150px;
+    width: 400px;
+    background-color: grey;
+    border : 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1rem;
+
+}
+
+div{
+    text-align: center;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}

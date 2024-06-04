@@ -1,0 +1,483 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000000;
+  margin: 0;
+  color: white;
+  overflow: hidden;
+}
+
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+
+
+.main-content{
+  background-color: #121212;
+  flex: 1;
+  border-radius: 0.5rem; /*16px it changes as screen becomes smaller*/
+  overflow: auto;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  height: 85%;
+}
+
+.sidebar{
+  background-color: black;
+  width: 380px;
+  border-radius: 1rem; /*16px it changes as screen becomes smaller*/
+
+}
+
+.music-player{
+  background-color: black;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  ;
+}
+
+.nav {
+  background-color: #121212;
+  border-radius: 0.5rem;
+  display: flex;
+  height: 20.2%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 0.75rem;
+  margin: 0.5rem;
+
+}
+
+
+
+.nav-option {
+  line-height: 2.5rem;
+  padding: 0.25rem 0.75rem;
+  opacity: 0.7;
+
+}
+
+.nav-option:hover{
+  opacity: 1.0;
+}
+
+.nav-option i{
+  font-size: 1.25rem;
+
+}
+
+.nav-option a{
+  font-size: 1rem;
+  margin-left: 1rem;
+  
+
+}
+
+.Spotify-icon-link{
+  height: 44px;
+
+}
+
+
+.library{
+  background-color: #121212;
+  border-radius:  0.5rem;
+  height: 60%;
+  margin: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+
+.lib-option{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lib-option-img img{
+  height: 1.25rem;
+}
+
+.lib-icons{
+  font-size: 1rem;
+  display:flex;
+}
+
+.lib-icons i{
+  opacity: 0.7;
+  margin-right: 1rem;
+}
+
+.lib-icons i:hover{
+  opacity: 1;
+}
+
+.box{
+  height: 6.5rem;
+  background-color: #232323;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0 1.75rem 0;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.box-p1{
+  font-size: 0.95rem;
+  font-weight: 600;
+
+}
+
+.box-p2{
+  font-size: 0.80rem;
+  font-weight: 400;
+}
+
+.nav-badge {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 800;
+  margin-top: 0.5rem;
+  height: 2rem;
+  width: fit-content;
+}
+.nav-badge:hover {
+  transform: scale(1.05);
+}
+
+
+.sticky-nav{
+  position: sticky;
+  top:0;
+  background-color: #0c0c0c;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+
+
+}
+
+.sticky-nav-icons img{
+  height: 1.25rem;
+  margin-left: 1rem;
+
+}
+
+.sticky-item{
+  margin-right: 1.5rem;
+}
+
+.light-sticky-badge {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 800;
+  height: 2rem;
+  width: fit-content;
+}
+/* .light-sticky-badge:hover {
+  transform: scale(1.05);
+} */
+
+.dark-sticky-badge {
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 800;
+  height: 2rem;
+  width: fit-content;
+}
+
+.dark-sticky-badge:hover {
+  opacity: 1;
+  /* transform: scale(1.05); */
+
+}
+.sticky-item>i{
+  margin-right: 8px;
+}
+
+.sticky-item:hover{
+  transform: scale(1.05);
+}
+
+@media (max-width:1000px){
+  .hide{
+    display: none;
+  }
+}
+
+section{
+  margin: 0 2rem;
+}
+
+.card-container{
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  gap: 10px  /* just learnt that it is possible to add gap in between flex items, and thats the coolest thing*/
+
+}
+
+
+.card {
+  background-color: #181818;
+  width: 180px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem 0
+}
+
+.empty-card {
+  width: 180px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+
+}
+
+.card img{
+  width: 100%;
+  border-radius: 0.5rem;
+  
+}
+
+.card-title{
+  font-weight: 600;
+}
+
+.card-info{
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 50px 0 200px 0;
+
+
+}
+
+
+.line {
+  opacity: 0.4;
+  border-top: grey 3px solid;
+  width: 90%;
+}
+
+.small-album-info{
+  width: 30%;
+  display: flex;
+  margin-left: 1rem;
+  height: 56px;
+  gap:1rem;
+  align-items: center;
+}
+.small-album-info-img{
+  border-radius: 0.5rem;
+  height: 50px;
+}
+.small-album-song-title p{
+  margin: 5px;
+}
+.small-album-song-title-p1{
+  font-size: small;
+}
+.small-album-song-title-p2{
+  opacity: 0.7;
+  font-size: x-small;
+}
+.love-icon{
+  height: 20px;
+  opacity: 0.7;
+}
+.love-icon:hover{
+  opacity: 1;
+}
+
+
+
+
+.music-playback{
+  width: 40%;
+  height: 100%;
+  
+}
+
+.playback-controls{
+  height: 33px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 0.5rem 0;
+
+}
+.playback-control-icon{
+  height: 1rem;
+  margin: 0.5rem 1rem;
+  opacity: 0.7;
+}
+
+.playback-control-icon:hover{
+  opacity: 1;
+}
+
+.playback-control-icon3 {
+  margin: 0;
+  height: 2rem;
+  opacity: 1;
+  margin: 0 10px 0 10px;
+}
+
+.playback-bar{
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  
+}
+
+.progress-bar{
+  width: 70%;
+  appearance: none;
+  background-color: transparent;
+  cursor:pointer; /*quirksmode.org*/
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+  background-color: #ddd;
+  height: 0.2rem;
+  border-radius: 100px;
+
+}
+
+.progress-bar::-webkit-slider-thumb{
+  appearance: none;
+  height: 0.75rem;
+  width: 0.75rem;
+  border-radius: 50%;
+  background-color: #1bd760;
+  margin-top: -4px;
+}
+.playback-bar span{
+  line-height: 20px;
+  opacity: 0.5;
+  margin: 0.25rem;
+}
+
+.volume-options{
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  
+}
+
+.volume-options-controls{
+  height: 55px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 7px;
+  margin-right: 2rem ;
+  
+}
+
+
+.volume-options-icon1{
+  height: 42px;
+  opacity: 0.7;
+}
+.volume-options-icon1:hover{
+  opacity: 1;
+}
+
+.volume-options-icon2{
+  height: 42px;
+  opacity: 0.5;
+}
+.volume-options-icon2:hover{
+  opacity: 1;
+}
+
+
+.volume-options-icon3{
+  height: 26px;
+  opacity: 0.7;
+}
+.volume-options-icon3:hover{
+  opacity: 1;
+}
+
+.volume-options-icon4{
+  height: 20px;
+  opacity: 0.7;
+}
+.volume-options-icon4:hover{
+  opacity: 1;
+}
+
+.volume-options-icon5 {
+  height: 36px;
+  opacity: 0.7;
+}
+.volume-options-icon5:hover{
+  opacity: 1;
+}
+
+.volume-options-bar{
+  appearance: none;
+  background-color: transparent ;
+  cursor: pointer;
+}
+
+.volume-options-bar::-webkit-slider-runnable-track{
+  opacity: 0.7;
+  background-color: #ddd;
+  height: 5px;
+  border-radius: 100px;
+}
+.volume-options-bar::-webkit-slider-runnable-track:hover{
+  opacity: 1;
+  background-color: #1bd760;
+}
+
+
+.volume-options-bar::-webkit-slider-thumb{
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #1bd760;
+  margin-top: -5px;
+}
+.volume-options-bar::-webkit-slider-thumb:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+.Dream{
+  color: yellowgreen;
+}

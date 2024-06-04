@@ -1,0 +1,24 @@
+.red {
+    color: red;
+}
+
+.blue {
+    color: aquamarine;
+}
+
+.box {
+    background-color: palevioletred;
+    border : 5px solid black;
+    padding: 0.5rem;
+    margin: 0.2rem;
+}
+
+#btn {
+    background-color: aquamarine;
+    color: white;
+}
+
+h1 {
+    color: purple;
+    text-decoration: underline black wavy;
+}

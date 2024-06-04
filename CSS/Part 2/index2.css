@@ -1,0 +1,55 @@
+
+
+* {
+    background-color: wheat;
+    font-family: Georgia;
+}
+
+header > h1, h3{
+    color: #b92b27;
+}
+
+.follow {
+    text-decoration: none;
+    background-color: yellow;
+    color: red;
+}
+
+#upvte {
+    background-color: lightgreen ;
+}
+
+#ans {
+    background-color: lightskyblue;
+}
+
+.cred:hover {
+    background-color: white;
+    color: black;
+
+}
+
+#login:hover , #signup:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+p:active {
+    font-weight: 700;
+
+}
+
+input[type="radio"]:checked+label{
+    font-weight: bold;
+    font-size: large;
+
+}
+
+
+div:nth-of-type(2n+1){
+    background-color: red;
+}

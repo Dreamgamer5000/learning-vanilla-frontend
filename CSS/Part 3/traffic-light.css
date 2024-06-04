@@ -1,0 +1,63 @@
+/* #outer {
+    height: 400px;
+    width: 150px;
+    padding: 50px;
+    margin: 25px;
+    border: solid black 3px;
+}
+
+#red, #orange, #green {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: black 3px solid;
+    border-radius: 50%;
+
+}
+
+#red {
+    background-color: red;
+
+}
+
+#orange {
+    background-color: orange;
+
+}
+
+#green {
+    background-color: green;
+
+} */
+
+
+#outer {
+    height: 200px;
+    width: 70px;
+    border: 2px dotted black;
+
+}
+
+#red, #orange, #green {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: black 2px solid;
+    border-radius: 50%;
+}
+
+#red {
+    background-color: red;
+
+}
+
+#orange {
+    background-color: orange;
+
+}
+
+#green {
+    background-color: green;
+
+} 

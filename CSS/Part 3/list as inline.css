@@ -1,0 +1,7 @@
+li {
+    font-size: 35px;
+    font-family: 'Courier New';
+    /* display: inline; */
+    margin: 20px;
+    border: 1px solid black;
+}

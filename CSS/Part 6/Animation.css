@@ -1,0 +1,52 @@
+.box {
+    height: 300px;
+    width: 300px;
+    border: 10px double black;
+    margin: 20px auto;
+    padding:10px;
+    background-color: wheat ;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    align-items: center;
+    justify-items: center;
+    
+
+}
+
+
+.loader {
+    width: 120px;
+    height: 120px;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid rgb(255, 44, 44);
+    border-radius: 50%;
+    animation: buffer 1ms ease-in-out 0s infinite normal;
+    
+   
+}
+
+
+@keyframes buffer {
+    0%{
+        transform:rotate(0deg);
+
+    }
+    25% {
+        border-top: 16px solid rgb(44, 255, 44);
+        transform:rotate(360deg);
+    }
+    50%{
+        border-top: 16px solid rgb(44, 44, 255);
+        transform:rotate(720deg);
+    }
+    75% {
+        border-top: 16px solid rgb(255, 241, 44);
+        transform:rotate(1080deg);
+    }
+
+    100% {
+        border-top: 16px solid rgb(0, 0, 0);
+        transform:rotate(1440deg);
+        
+    }
+}

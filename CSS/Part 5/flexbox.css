@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    color: goldenrod;
+}
+#outer {
+    height: 500px;
+    width: 1000px;
+    margin: 10px auto;
+    background-color: wheat;
+    border: 2px solid black;
+    display:flex
+
+
+}
+
+
+#outer div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-family: 'Courier New';
+    
+}

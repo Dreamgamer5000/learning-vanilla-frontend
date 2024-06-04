@@ -1,0 +1,106 @@
+body{
+    font-family: "Caveat", sans-serif;
+    background-image: radial-gradient(ellipse at center, rgba(16, 2, 38,0.9), rgb(3, 2, 20));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+}
+
+.screenFlash{
+    background-image: radial-gradient(ellipse at center, rgba(255, 0, 0, 0.9), rgb(255, 37, 37));
+  
+}
+  
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.text  {
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+}
+
+p{
+    font-size: 25px;
+    color: antiquewhite;
+    text-shadow:
+    0 0 10px #fff, /* Inner white glow */
+    0 0 20px #e60073, /* Pink outer glow */
+    0 0 30px #e60073;
+}
+
+h1{
+    font-size: 70px;
+    color: rgb(246,180,142);
+    text-shadow:
+    1px 1px 10px #f9a88b;
+    margin-bottom: 0;
+}
+
+  
+
+.container{
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 10px black;
+    background-color: rgba(7, 4, 32, 0.408);
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto); 
+    place-items: center;
+    padding: 0.64rem;
+    
+}
+
+.box{
+    height: 125px;
+    width: 125px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nocursor{
+cursor: progress;
+}
+
+.red{
+    background-color: rgb(246,149,142,0.6);
+}
+.redFlash{
+    background-color: rgb(246,149,142);
+    box-shadow: 1px 1px 10px  rgb(246,149,142) ;
+}
+
+.blue{
+    background-color:rgb(187,233,246,0.6);
+}
+.blueFlash{
+    background-color:rgb(187,233,246);
+    box-shadow: 1px 1px 10px rgb(187,233,246) ;
+}
+
+.yellow{
+    background-color: rgb(246,227,142,0.6);
+}
+.yellowFlash{
+    background-color: rgb(246,227,142);
+    box-shadow: 1px 1px 10px   rgb(246,227,142) ;
+
+}
+
+.green{
+    background-color: rgba(187, 246, 195, 0.6);
+}
+.greenFlash{
+    background-color: rgba(187, 246, 195);
+    box-shadow: 1px 1px 10px  rgba(187, 246, 195) ;
+}
